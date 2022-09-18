@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    height: 10vh;
+    background-color:rgb(157, 157, 177);
+    margin: 0;
+    width: 100%;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav img{
+    width: 10vh;
+    height: 10vh;
+}
+nav .nav-left {
+    display: flex;
+    flex: 50%;
+    margin-left: 100px;
+    align-items:center ;
+}
+
+nav .nav-left ul{
+    display: flex;
+    list-style-type: none;
+    
+}
+
+nav .nav-left ul li {
+    margin-right: 20px;
+}
+
+nav .nav-left ul li a{
+    color: black;
+}
+
+nav .nav-right {
+    display: flex;
+    flex: 50%;
+    align-items: center;
+    justify-content: end;
+    margin-right: 100px;
+}
+
+nav .nav-right a{
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    padding: 5px 10px;
+}
+
+.blog-detail{
+    
+    margin: 0px ;
+    background-color:rgb(220, 234, 243) ;
+    }
+    
+    .blog-detail-container{
+        width: 80%;
+        background-color:;
+        padding-top: 20px;
+        margin: 0px auto;
+    }
+    
+    .blog-detail-container h1{
+        margin-bottom: 30px;
+        text-align: center;
+        background-color: ;
+    }
+    
+    .blog-detail-container-section{
+        background-color: ;
+        display: flex;
+        justify-content: space-between;
+        height: 70vh;
+        margin-bottom: 30px;
+    }
+    
+    .blog-detail-container-section i{
+        margin-right: 10px;
+        font-size: 30px;
+    }
+    
+    
+    .blog-detail-container-section div{
+        margin-bottom: 10px;
+    }
+    
+    .blog-detail-container-section h3{
+        margin-bottom: 8px;
+    
+    }
+    
+    .blog-detail-container-section-left{
+        background-color:;
+        width: 60%;
+    
+    }
+    
+    
+    .blog-detail-container-section-left img{
+        width:100%;
+        height: 100%;
+    }
+    
+    .blog-detail-container-section-right{
+        width: 30%;
+        background-color:;
+        font-size: 25px;
+    
+    }
+
+    .technologies-icon{
+        display: flex;
+    }
+    
+    .technologies-icon-left{
+        margin-right: 20px;
+    }

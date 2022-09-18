@@ -1,0 +1,130 @@
+
+body{
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    height: 10vh;
+    background-color:rgb(157, 157, 177);
+    margin: 0;
+    width: 100%;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav img{
+    width: 10vh;
+    height: 10vh;
+}
+nav .nav-left {
+    display: flex;
+    flex: 50%;
+    margin-left: 100px;
+    align-items:center ;
+}
+
+nav .nav-left ul{
+    display: flex;
+    list-style-type: none;
+    
+}
+
+nav .nav-left ul li {
+    margin-right: 20px;
+}
+
+nav .nav-left ul li a{
+    color: black;
+}
+
+nav .nav-right {
+    display: flex;
+    flex: 50%;
+    align-items: center;
+    justify-content: end;
+    margin-right: 100px;
+}
+
+nav .nav-right a{
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    /* font-weight: bold; */
+    padding: 5px 10px;
+}
+
+h2{
+    /* background-color: beige; */
+    margin: 20px;
+    text-align: center;
+}
+
+.badan{
+    height: 95vh;
+    background-color: rgb(124, 189, 219);
+    padding: 10px;
+}
+
+form{
+    width: 450px;
+    /* background-color: blueviolet; */
+    margin: auto;
+    padding: 10px;
+
+}
+
+form div{
+    /* background-color: red; */
+    margin-top: 20px;
+}
+
+form label{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+input,textarea,select{
+    background-color: white;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+    box-sizing: border-box;
+}
+
+/* select{
+    background-color: white;
+    width: 105%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none; */
+
+}
+
+form textarea{
+    resize: none;
+}
+
+form .submit{
+    display: flex;
+    justify-content:end;
+    width: 100%;
+    /* background-color: brown; */
+}
+
+form .submit button{
+    background-color:black ;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px;
+    padding: 8px 30px;
+    cursor: pointer;
+
+}

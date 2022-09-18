@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Add Project</title>
+    <link rel="stylesheet" href="project.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <nav>
+        <div class="nav-left">
+            <img src="assets/logo.png" alt="logo">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="project.html" style="font-weight:bold ;">My Project</a>
+                </li>
+            </ul>
+
+        </div>
+
+        <div class="nav-right">
+            <a href="contact.html">Contact Me</a>
+        </div>
+    </nav>
+
+    <div class="badan">
+
+        <h2>ADD MY PROJECT</h2>
+
+        <form onsubmit="addProject(event)">
+            <div>
+                <label for="project-name">Project Name</label>
+                <input type="text" id="project-name">
+            </div>
+            <div class="date">
+                <div class="start-date">
+                    <label for="start-date">Start Date</label>
+                    <input type="date" id="start-date">
+                </div>
+                <div class="end-date">
+                    <label for="end-date">End Date</label>
+                    <input type="date" id="end-date">
+                </div>
+            </div>
+            <div>
+                <label for="Description">Description</label>
+                <textarea class="description" name="" id="description" cols="" rows="10"></textarea>
+            </div>
+            <p style="font-size:20px ; 
+            font-weight: bold;
+            ">Techlogies</p>
+            <div class="technologies">
+                <div>
+                    <div>
+                        <input value="fa-brands fa-node-js" type="checkbox" id="node-js"> 
+                        <label for="node-js">Node JS</label>
+                    </div>
+                    <div>
+                        <input value="fa-brands fa-facebook" type="checkbox" id="next-js">
+                        <label for="next-js">Next JS</label>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <input value="fa-brands fa-react" type="checkbox" id="react-js">
+                        <label for="react-js">React JS</label>
+                    </div>
+                    <div>
+                        <input value="fa-brands fa-github" type="checkbox" id="typeScript">
+                        <label for="typeScript">TypeScript</label>
+                    </div>
+                </div>
+
+            </div>
+
+            <div>
+                <label for="">Upload Image</label>
+                <div class="upload-image">
+                    <label for="input-image">
+                        <p>choose</p>
+                        <img src="assets/file.png" alt="">
+                    </label>
+                    <input type="file" hidden id="input-image">
+                </div>
+            </div>
+            <div class="submit">
+                <button>Submit</button>
+            </div>
+        </form>
+
+    </div>
+
+    <div>
+
+        <h2 style="text-align:center;">MY PROJECT</h2>
+
+        <div class="container" id="container">
+
+            <a href="detail.html" class="container-post">
+
+                <div>
+                    <div class="container-image">
+                        <img src="assets/cot logo.PNG" alt="Project image">
+                    </div>
+                    <div class="container-title">
+                        <h2>My Project</h2>
+                    </div>
+                    <div >
+                        <p class="container-duration">Durasi: 3 bulan</p>
+                        <p class="container-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit eos maiores neque, officia suscipit voluptatem debitis velit obcaecati perferendis repudiandae? Qui nostrum aliquid neque hic similique. Ab, veritatis repudiandae. Non.</p>
+                    </div>
+                </div>
+                <div class="container-icon">
+                    <i class="fa-brands fa-node-js"></i>
+                    <i class="fa-brands fa-android"></i>
+                    <i class="fa-brands fa-react"></i>
+                    <i class="fa-solid fa-mobile-phone"></i>
+
+                </div>
+                <div class="container-option">
+                    <button class="container-option-left">edit</button>
+                    <button class="container-option-right">delete</button>
+                </div>
+
+            </a>
+            
+            
+
+        </div>
+
+    </div>
+
+<script src="project.js"></script>
+</body>
+
+</html>
