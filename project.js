@@ -91,7 +91,8 @@ function renderProject(){
     document.getElementById("container").innerHTML = ``
 
     for (let index = 0; index < dataProject.length; index ++){
-    document.getElementById("container").innerHTML +=  `<a href="" class="container-post">
+    document.getElementById("container").innerHTML +=  `
+    <div class="container-post">
 
     <div>
         <div class="container-image">
@@ -100,9 +101,11 @@ function renderProject(){
         <div class="container-title">
             <h2>${dataProject[index].projectName}</h2>
         </div>
-        <div >
+         <div >
             <p class="container-duration">Durasi: ${dataProject[index].duration} bulan</p>
-            <p class="container-description">${dataProject[index].projectDescription}</p>
+            <p class="container-description">
+            ${dataProject[index].projectDescription}
+            </p>
         </div>
     </div>
     <div class="container-icon">
@@ -117,7 +120,7 @@ function renderProject(){
         <button class="container-option-right">delete</button>
     </div>
 
-</a>
+</div>
 `
     }
 }

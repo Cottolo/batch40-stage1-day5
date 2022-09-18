@@ -192,18 +192,21 @@ form div{
     background-color:;
     box-shadow: 0px 0px 5px;
     margin-top: 20px;
+    height: auto;
+    overflow: hidden;
+    word-break: break-all;
     text-decoration: none;
     color: black;
-    background-color: white;
 }
 
 .container-post .container-description{
-    text-align: justify;
+    text-align:justify;
 }
 
 .container .container-post img{
     width: 100%;
     border-radius:10px;
+    height: 40vh;
     
 }
 
